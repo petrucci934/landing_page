@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{   
+    --font-color:#FFF2E7;
+    --font-family-primary:"Righteous", cursive;
+    --font-family-secundary:"Sarala",sans-serif;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg,#2F2325 16.62%,#8E5D52 85.61%);
+   
+}
+.cabecalho{
+    display: flex;
+    padding: 1.25rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.cabecalho__imagem{
+    height: 4rem;
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 2rem;
+}
+.cabecalho__menu__item{
+    font-family: var(--font-family-secundary);
+    color: var(--font-color);
+    font-weight: 400;
+    font-size: 18px;
+}
+.conteudo{
+    border-top: .4px solid #FFF2E7;
+    margin-bottom: 3rem ;
+}
+.conteudo__principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.conteudo__principal__texto{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.conteudo__principal__texto__titulo{
+    font-family: var(--font-family-primary);
+    font-weight: 400;
+    font-size: 4rem;
+    color: var(--font-color);
+}
+.conteudo__principal__texto__subtitulo{
+    font-family: var(--font-family-secundary);
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #ECD6C4;
+}
+.conteudo__principal__texto__botao{
+    text-align: center;
+    padding: 14px;
+    background-color: #ECD6C4;
+    border-radius: 20px;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: var(--font-family-secundary);
+    color: #2F2325;
+    font-size: 1.25rem;
+    width: 400;
+
+}
+.conteudo__principal__texto__botao:hover{
+    background-color: rgba(236, 214,196, 0.53);
+}
+.conteudo__texto__imagem{
+    height: 430px;
+}
+.conteudo__secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    margin-top: 3rem;
+}
+.conteudo__secundario__titulo{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 3rem;
+    font-size: 1.25rem;
+    font-family: var(--font-family-primary);
+    font-weight: 400;
+    color:#FFF2E7 ;
+    margin-bottom: 1rem;
+}
+.conteudo__secundario__paragrafo{
+    font-family: var(--font-family-secundary);
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #ECD6C4;
+}
+.rodape{
+    border-top: 0.4px solid #FFF2E7;
+    padding: 32px;
+}
+.rodape__imagem{
+    height: 3rem;
+    display: block;
+    margin: 0 auto;
+}
